@@ -37,6 +37,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # default installed
+    # third party
+    # end of third party
+    # custom installed apps
+    'chat.apps.ChatConfig',
+    # end of custom installed apps
 ]
 
 MIDDLEWARE = [
