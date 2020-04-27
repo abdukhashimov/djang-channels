@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # default installed
     # third party
+    'channels',
     # end of third party
     # custom installed apps
     'chat.apps.ChatConfig',
